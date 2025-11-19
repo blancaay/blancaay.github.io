@@ -1,1 +1,0 @@
-# blancaay.github.io
