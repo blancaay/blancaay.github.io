@@ -27,6 +27,13 @@ h2 {
 	text-shadow: 2px 2px 5px #EA85AE;
 }
 
+h3 {
+	font-family: "Bitcount Grid Single", system-ui;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 5px #EA85AE;
+}
+
 /* for paragraphs */
 p {
 	color: black;
