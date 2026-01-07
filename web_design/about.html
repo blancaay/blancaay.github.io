@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang = "en-GB">
+
+<head>
+<!-- files -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" media="screen and (max-width: 720px)" href="Photos\Hamburger menu.png">
+
+<!-- tab name -->
+<title> About | Look the Part </title>
+
+<!-- tab icon (resource used: https://favicon.im/blog/favicon-for-light-dark-modes) -->
+<!-- light mode -->
+<link rel="icon" type="image/png" media="(prefers-color-scheme: light)" href="media\Tab icon (black).png">
+<!-- dark mode -->
+<link rel="icon" type="image/png" media="(prefers-color-scheme: dark)" href="media\Tab icon (white).png">
+</head>
+
+<body>
+<!-- logo -->
+<h1>
+	<a href="index.html">L o o k  T h e  P a r t</a>
+</h1>
+
+<!-- search bar (resource used: https://www.w3schools.com/howto/howto_css_searchbar.asp)-->
+<div class="search">
+	<input class="searchbar" type="text" placeholder="Search...">
+</div>
+
+<!-- navigation bar w/ dropdown menus (resource used: https://www.youtube.com/watch?v=8eFeIFKAKHw) -->
+<nav>
+	<input type="checkbox" id="sidebar-active">
+	<label for="sidebar-active" class="open-sidebar-button">
+		<svg xmlns="http:www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30px" fill="#000000">
+			<path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"></path>
+		</svg>
+	</label>
+
+	<label id="overlay" for="sidebar-active"></label>
+	<div class="links-container">
+		<label for="sidebar-active" class="open-sidebar-button">
+			<svg xmlns="http:www.w3.org/2000/svg" height="50" viewBox="0 -960 960 960" width="50px" fill="#FFFFFF">
+				<path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"></path>
+			</svg>
+		</label>
+
+		<!-- links  -->
+		<div>
+			<ul>
+				<!-- about -->
+				<li><a href="about.html">About</a></li>
+
+				<!-- form -->
+				<li><a href="form.html">Form</a></li>
+
+				<!-- movies dropmenu-->
+				<div class="dropmenu">
+					<li>
+						<button class="button">Movies</button>
+					</li>
+					<div class="dropcontent">
+						<!-- mean girls -->
+						<a href="mean girls.html">Mean Girls (2004)</a>
+
+						<!-- la la land -->
+						<a href="#La La Land">La La Land (2016)</a>
+
+						<!-- the greatest showman -->
+						<a href="#The Greatest Showman">The Greatest Showman (2017)</a>
+
+						<!-- barbie -->
+						<a href="#Barbie">Barbie (2023)</a>
+
+						<!-- damsel -->
+						<a href="#Damsel">Damsel (2024)</a>
+					</div>
+				</div>
+
+				<!-- shows dropmenu -->
+				<div class="dropmenu">
+					<li>
+						<button class="button">Shows</button>
+					</li>
+					<div class="dropcontent">
+						<!-- breaking bad -->
+						<a href="#Breaking Bad">Breaking Bad (2008-2013)</a>
+
+						<!-- game of thrones -->
+						<a href="#Game of Thrones">Game of Thrones (2011-2019)</a>
+
+						<!-- stranger things -->
+						<a href="#Stranger Things">Stranger Things (2016-2025)</a>
+
+						<!-- spy x family -->
+						<a href="#Spy x Family">Spy x Family (2022-)</a>
+
+						<!-- dan da dan -->
+						<a href="#Dan Da Dan">Dan Da Dan (2024-)</a>
+					</div>
+				</div>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- about -->
+<h2>ABOUT</h2>
+<p>Hello! Welcome to Look the Part!</p>
+<p>A dedicated website that helps you find similiar clothes and outfits that are inspred by your favourite shows and movies. Here at Look the Part, we want to inspire people to look the best and guide them through their fashion journey. Whether you're trying to figure out your unique style or are looking for a fun outfit idea, Look the Part has you covered!</p>
+<p>We try to include as many shows and movies as we can. However, if we've missed one that you really want us to include, you can use the form linked <a href="form.html">here</a> to let us know! </p>
+
+<!-- how to navigate -->
+<h2>HOW TO NAVIGATE</h2>
+	<p>In case you're feeling a little lost, not to worry! Here's a step-by-step guide to help you navigate the site:</p>
+
+	<!-- list -->
+	<ol>
+		<li>On the home page (which you can get to by clicking the Look the Part logo at the top), you will find a series of movie and show posters. Click on any of them to take you to their dedicated page</li>
+		<li>Here you will find screenshots from the movie/show. Click on any of them to take you to that specific 'Where to Get It' page.</li>
+		<li>On every 'Where to Get It' page, you will find the same picture you clicked on and links to items from external online shops. These links are separated by clothing item and will include the original price listed on the website (it will not include any sale/discounted prices).</li>
+	</ol>
+
+<!-- footer -->
+<footer>You've reached the end of the page!</footer>
+</body>
+
+</html>
