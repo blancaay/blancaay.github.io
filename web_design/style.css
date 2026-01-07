@@ -1,0 +1,663 @@
+/* for larger screens */
+@media screen and (max-width: 1920px) {
+	body {
+		font-family: "Tahoma", serif;
+		font-size: 100%;
+		font-weight: normal;
+		height: 100%;
+		width: 100%;
+		margin: 0px;
+	}
+
+	/* font */
+	.bagel-fat-one-regular {
+		font-family: "Bagel Fat One", system-ui;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	/* logo/title (resouce used: https://www.w3schools.com/css/css3_gradients.asp) */
+	h1 {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		font-family: "Bagel Fat One", system-ui;
+		font-size: 300%;
+		margin-top: 0px;
+		padding-top: 25px;
+		text-align: center;
+	}
+
+	h1 a {
+		color: black;
+		text-decoration: none;
+	}
+
+	h1 a:hover{
+		color: black;
+	}
+
+	/* navigation bar and dropdown menu (resource used: https://www.w3schools.com/howto/howto_css_dropdown.asp + https://www.youtube.com/watch?v=8eFeIFKAKHw + https://www.w3schools.com/css/css3_gradients.asp) */
+	nav {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		display: flex;
+		justify-content: flex-end;
+		margin-top: -1px;
+		width: 100%;
+	}
+
+	.links-container {
+		display: flex;
+		flex-direction: row;
+		height: 61px;
+		width: 75%;
+		margin-right: 17%;
+	}
+
+	nav a {
+		align-items: center;
+		color: black;
+		display: flex;
+		height: 100%;
+		padding: 0 20px;
+		text-decoration: none;
+	}
+
+	nav a:hover, .dropdown:hover .button {
+		background-color: #042FAE;
+		color: white;
+		font-weight: 800;
+		margin-bottom: 2px;
+		text-decoration: none;
+	}
+
+	/* lists */
+	ul {
+		height: 45px;
+		width: 103%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	 ol {
+	 	color: #042FAE;
+		margin: auto;
+		width: 75%;
+	 }
+
+	 ol li {
+	 	display: list-item;
+		padding-top: 0px;
+		padding-bottom: 25px;
+	 }
+
+	li {
+		display: block;
+	}
+
+	li a {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	/* sidebar */
+	#sidebar-active {
+		display: none;
+	}
+
+	.open-sidebar-button, .close-sidebar-button {
+		display: none;
+	}
+
+	/* dropdown menu (resource used: https://www.w3schools.com/howto/howto_css_dropdown.asp) */
+	.dropmenu {
+		display: flex;
+		overflow: hidden;
+	}
+
+	.dropmenu .button {
+		background-color: rgba(0, 0, 0, 0);
+		colour: black;
+		border: none;
+		font-size: 100%;
+		left: 0px;
+		outline: none;
+		padding-block: 13px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.dropmenu .button:hover {
+		background-color: #042FAE;
+		color: white;
+		font-weight: 800;
+		margin-bottom: 2px;
+		text-decoration: none;
+	}
+
+	.dropcontent {
+		background-color: #042FAE;
+		display: none;
+		margin-top: 46px;
+		min-width: 160px;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.dropcontent a {
+		color: white;
+		display: block;
+		padding: 12px 16px;
+		text-align: left;
+		text-decoration: none;
+	}
+
+	.dropcontent a:hover {
+		background-color: #042FAE;
+	}
+
+	.dropmenu:hover .dropcontent {
+		display: block;
+	}
+
+	/* search (resource used: https://www.w3schools.com/howto/howto_css_searchbar.asp + https://www.w3schools.com/css/css3_gradients.asp)*/
+	.search {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		height: 30px;
+		width: 100%;
+		margin-top: -33px;
+	}
+
+	.searchbar {
+		margin-left: 70%;
+		padding: 2px;
+		width: 200px;
+	}
+
+	/* banner */
+	.homebanner {
+		background-color: #3659BE;
+		color: white;
+		font-size: 280%;
+		margin-bottom: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		padding: 100px;
+		text-align: center;
+	}
+
+	.banner {
+		background-color: #3659BE;
+		color: white;
+		font-size: 100%;
+		padding: 25px;
+	}
+
+	.bannertext {
+		color: #042FAE; 
+		margin: auto; 
+		width: 75%
+	}
+
+	/* headings */
+	h2 {
+		color: #042FAE;
+		font-size: 36px;
+		margin-bottom: 50px;
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	h3 {
+		color: #042FAE;
+		font-size: 20px;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		text-align: center;
+	}
+
+	/* text */
+	p {
+		color: #042FAE;
+		font-size: 16px;
+		font-weight: 400;
+		margin: auto;
+		padding-top: 0px;
+		padding-bottom: 25px;
+		text-align: center;
+		width: 75%;
+	}
+
+	/* hyperlinks */
+	a {
+		color: #AE0484;
+	}
+
+	a:hover {
+		color: #967103;
+	}
+
+	p a:visited {
+		color: #038724;
+	}
+
+	/* horizonal scrollable menu (resource used: https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp) */
+	div.scrollmenu {
+		overflow: auto;
+		white-space: nowrap;
+	}
+
+	div.scrollmenu a {
+		color: black;
+		display: inline-block;
+		padding: 15px 50px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	 /* form */
+	 .form {
+	 	height: 240px;
+	 	width: 75%;
+	 	margin: auto;
+	 	color: #042FAE;
+	 	padding-top: 30px;
+	 }
+
+	 .textbox {
+		margin: auto;
+		margin-left: 150px;
+		padding: 2px;
+		width: 200px;
+	}
+
+	 .selectbox {
+		margin-left: 87px;
+		padding: 2px;
+		width: 208px;
+	}
+
+	.submit {
+		width: 125px;
+		margin-left: 70%;
+	}
+
+	/* movie and show pages */
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+		width: 75%;
+		margin: auto;
+	}
+
+	.column {
+		flex: 25%;
+		max-width: 33%;
+		padding: 0 4px;
+	}
+
+	.column img {
+		margin-top: 15px;
+		vertical-align: middle;
+		width: 100%;
+		display: block;
+	}
+
+	/* where to get it (resource used: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) */
+	.wheretogetit {
+		width: 75%;
+		margin: auto;
+	}
+
+	div.photo, div.text {
+		width: 50%;
+	}
+
+	div.photo {
+		display: flex;
+		justify-content: flex-start;
+		height: 40vh;
+	}
+
+	div.text {
+		margin-left: 50%;
+		margin-top: -250px;
+	}
+
+	/* footer (resouce used: https://www.w3schools.com/css/css3_gradients.asp) */
+	footer {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		color: black;
+		font-size: 200%;
+		margin-bottom:-16px;
+		margin-top: 0px;
+		margin-right: 0px;
+		padding: 50px;
+		text-align: center;
+	}
+}
+
+/* for smaller screens */
+/* note: changed width from 360 (from PowerPoint) to 600 */
+@media screen and (max-width: 888px) {
+	body {
+		font-family: "Tahoma", serif;
+		font-size: 100%;
+		font-weight: normal;
+		height: 100%;
+		width: 100%;
+		margin: 0px;
+	}
+
+	/* font */
+	.bagel-fat-one-regular {
+		font-family: "Bagel Fat One", system-ui;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	/* logo/title (resouce used: https://www.w3schools.com/css/css3_gradients.asp) */
+	h1 {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		color: black;
+		font-family: "Bagel Fat One", system-ui;
+		font-size: 300%;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		max-width: 100%;
+		padding: 25px;
+		text-align: left;
+	}
+
+	h1 a {
+		color: black;
+		text-decoration: none;
+	}
+
+	h1 a:hover{
+		color: black;
+	}
+
+	/* navigation bar (resource used: https://www.youtube.com/watch?v=8eFeIFKAKHw)*/
+	nav {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		display: flex;
+		justify-content: flex-end;
+		margin-top: -1px;
+		width: 100%;
+	}
+
+	.links-container {
+		align-items: flex-start;
+		display: flex;
+		flex-direction: column;
+		background-color: #042FAE;
+		box-shadow: -5px 0 5px rgba(0, 0, 0, 0.5);
+		font-size: 25px;
+		margin-right: 0;
+		position: fixed;
+		right: -103%;
+		top: 0;
+		transition: 0.75s ease-out;
+		min-height: 100vh;
+		width: 300px;	
+		z-index: 10;	
+	}
+
+	.links-container ul {
+		min-height: 100vh;
+		flex-direction: column;
+		height: auto;
+	}
+
+	.links-container li {
+		margin-bottom: 15px;
+	}
+
+	.links-container a, .links-container button {
+		color: white;
+	}
+
+
+	nav a {
+		box-sizing: border-box;
+		height: auto;
+		width: 100%;
+		justify-content: flex-start;
+		padding: 20px 30px;
+	}
+
+	nav a:hover, .dropdown:hover .button {
+		background-color: #042FAE;
+		color: white;
+		font-weight: 800;
+		margin-bottom: 2px;
+		text-decoration: none;
+	}
+
+	/* list */
+	ul {
+		height: 45px;
+		width: 103%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	 ol {
+	 	color: #042FAE;
+		margin: auto;
+		width: 75%;
+	 }
+
+	 ol li {
+	 	display: list-item;
+		padding-top: 0px;
+		padding-bottom: 25px;
+	 }
+
+	li a {
+	 	color: white;
+	 }
+
+	 /* sidebar */
+	.open-sidebar-button, .close-sidebar-button {
+		display: block;
+		padding: 20px;
+		z-index: 10;
+	}
+
+	#sidebar-active:checked ~ .links-container {
+		right: 0;
+	}
+
+	#sidebar-active:checked ~ #overlay {
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 9;
+
+	/* dropdown menu (resource used: https://www.w3schools.com/howto/howto_css_dropdown.asp) */
+	.dropmenu {
+		display: flex;
+		overflow: hidden;
+	}
+
+	.dropmenu .button {
+		background-color: rgba(0, 0, 0, 0);
+		colour: black;
+		border: none;
+		font-size: 100%;
+		left: 0px;
+		outline: none;
+		padding-block: 13px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.dropmenu .button:hover {
+		background-color: #042FAE;
+		color: white;
+		font-weight: 800;
+		margin-bottom: 2px;
+		text-decoration: none;
+	}
+
+	.dropcontent {
+		background-color: #042FAE;
+		display: none;
+		left: 0;
+		margin-top: 46px;
+		width: 200px;
+		position: absolute;
+		z-index: 10;
+	}
+
+	.dropcontent a {
+		color: white;
+		display: block;
+		padding: 12px 16px;
+		text-align: left;
+		text-decoration: none;
+	}
+
+	.dropcontent a:hover {
+		background-color: #042FAE;
+	}
+
+	.dropmenu:hover .dropcontent {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* search (resource used: https://www.w3schools.com/howto/howto_css_searchbar.asp + (resouce used: https://www.w3schools.com/css/css3_gradients.asp) */
+	.search {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		height: 30px;
+	}
+	
+	.searchbar {
+		margin-left: 30%;
+		padding: 2px;
+		width: 200px;
+	}
+
+	/* banner */
+	.homebanner {
+		background-color: #3659BE;
+		color: white;
+		font-size: 225%;
+		margin-bottom: 0px;
+		margin-right: 0px;
+		margin-top: -15px;
+		padding: 100px;
+		text-align: center;
+	}
+
+	.banner {
+		background-color: #3659BE;
+		color: white;
+		font-size: 225%;
+		margin-bottom: 0px;
+		margin-right: 0px;
+		margin-top: -15px;
+		padding: 100px;
+		text-align: center;
+	}
+
+	/* headings */
+	h2 {
+		color: #042FAE;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	h3 {
+		color: #042FAE;
+		font-size: 20px;
+		margin-bottom: 25px;
+		margin-top: 25px;
+		text-align: center;
+	}
+
+	/* horizonal scrollable menu (resource used: https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp) */
+	div.scrollmenu {
+		overflow: auto;
+		white-space: nowrap;
+	}
+
+	div.scrollmenu a {
+		color: black;
+		display: inline-block;
+		padding: 15px 50px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	 /* form */
+	 .form {
+	 	height: 240px;
+	 	width: 75%;
+	 	margin: auto;
+	 	color: #042FAE;
+	 	padding-top: 30px;
+	 }
+
+	 .textbox {
+		margin: auto;
+		margin-left: 150px;
+		padding: 2px;
+		width: 200px;
+	}
+
+	 .selectbox {
+		margin-left: 87px;
+		padding: 2px;
+		width: 208px;
+	}
+
+	.submit {
+		width: 125px;
+		margin-left: 70%;
+	}
+
+	/* movie and show pages (resource used: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) */
+	.column {
+		flex: 100%;
+		max-width: 100%;
+	}
+
+	/* where to get it */
+	.wheretogetit {
+		width: 100%;
+		margin: auto;
+		background-color: red;
+		display: block;
+	}
+
+	div.photo, div.text {
+		width: 100%;
+	}
+
+	div.photo {
+		display: flex;
+		justify-content: flex-start;
+		height: 40vh;
+	}
+
+	div.text {
+		margin: 0px;
+	}
+
+	/* footer */
+	footer {
+		background-image: linear-gradient(to right, #A8D7EF, white);
+		color: black;
+		font-size: 200%;
+		margin-bottom:-16px;
+		margin-top: 50px;
+		margin-right: 0px;
+		padding: 50px;
+		text-align: center;
+	}
+}
