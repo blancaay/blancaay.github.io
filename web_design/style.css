@@ -253,7 +253,7 @@
 		text-decoration: none;
 	}
 
-	 /* form */
+	 /* form (resource used: https://www.w3schools.com/html/html_form_input_types.asp) */
 	 .form {
 	 	height: 240px;
 	 	width: 75%;
@@ -280,7 +280,7 @@
 		margin-left: 70%;
 	}
 
-	/* movie and show pages */
+	/* movie and show pages (resources used: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) */
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -302,7 +302,7 @@
 		display: block;
 	}
 
-	/* where to get it (resource used: https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp) */
+	/* where to get it */
 	.wheretogetit {
 		width: 75%;
 		margin: auto;
@@ -338,7 +338,7 @@
 
 /* for smaller screens */
 /* note: changed width from 360 (from PowerPoint) to 600 */
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 600px) {
 	body {
 		font-family: "Tahoma", serif;
 		font-size: 100%;
@@ -377,7 +377,7 @@
 		color: black;
 	}
 
-	/* navigation bar (resource used: https://www.youtube.com/watch?v=8eFeIFKAKHw)*/
+	/* navigation bar (resource used: https://www.youtube.com/watch?v=8eFeIFKAKHw + https://www.w3schools.com/css/css3_gradients.asp) */
 	nav {
 		background-image: linear-gradient(to right, #A8D7EF, white);
 		display: flex;
@@ -594,7 +594,7 @@
 		text-decoration: none;
 	}
 
-	 /* form */
+	 /* form (resource used: https://www.w3schools.com/html/html_form_input_types.asp) */
 	 .form {
 	 	height: 240px;
 	 	width: 75%;
@@ -661,3 +661,5 @@
 		text-align: center;
 	}
 }
+
+/* flex display (resource used: https://www.w3schools.com/css/css3_flexbox.asp) */
